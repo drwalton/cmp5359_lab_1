@@ -26,7 +26,7 @@ int main()
 				imageBuffer[pixelIdx * 4 + c] *= 0.5;
 			}
 
-	// Try the following:
+	// Once you have tested this code, comment out the for loops above and try the following tasks:
 	// * Task 1: Try making a *negative* of the input image. Pixels that are bright in the input
 	//           should be dark in your output. 
 	//           Hint: if the pixels ranged in value from 0 to 1, you could replace each pixel value (v) with (1 - v). 

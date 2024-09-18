@@ -34,10 +34,16 @@ int main()
 	//           We will use this setPixel function to build our rasteriser in the upcoming labs.
 	//			 Test your setPixel function by setting pixels in your image to different colours.
 	// * Optional Task 3: Use your setPixel function to draw a circle in the centre of the image. Remember a point is
-	//           in a circle if (x - x_0)^2 + (y - y_0)^2 < radius (here x_0, y_0 are the coordinates at the middle of 
+	//           in a circle if sqrt((x - x_0)^2 + (y - y_0)^2) < radius (here x_0, y_0 are the coordinates at the middle of 
 	//           the circle). 
 	//           Hint - use a similar for loop to the one above, and add an if statement to check if the current
 	//           pixel lies in the circle.
+	// * Optional Task 4: Work out how good the compression ratio of the saved PNG image is. PNG images
+	//           use *lossless* compression, where all the pixel values of the original image are preserved.
+	//           To work out the compression ratio, compare the size of the saved image to the memory
+	//           occupied by the image buffer (this is based on the width, height and number of channels).
+	//           Try setting the pixels to random values (use rand() and the % operator). What is the 
+	//           compression ratio now, and why do you think this is?
 
 
 	// *** Encoding image data ***
